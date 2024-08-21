@@ -1,0 +1,23 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQNoFlash",
+  "slug": "qqnoflash",
+  "description": "别用任务栏图标烦我好吗",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Il Harper",
+      "link": "https://github.com/ilharp"
+    }
+  ],
+  "repository": {
+    "repo": "bakyrd/QQNoFlash",
+    "branch": "master"
+  },
+  "platform": ["win32", "linux", "darwin"],
+  "dependencies": [],
+  "injects": {
+    "main": "./index.js"
+  }
+}
